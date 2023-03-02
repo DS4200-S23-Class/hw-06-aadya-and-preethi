@@ -1,30 +1,28 @@
+/* set font to arial */
 body {
-    font-family: arial;
-}
-
-h1, h2, h3 { 
-    text-align: center;
-}
-
-
-.row {
-    display: flex;  
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 35px;
-    margin-bottom: 5px;
+    font-family: Arial;
   }
-
-.column {
-    display:flex;
-    flex-direction:column;
-    flex:50%;
-}
-
-
-.selected {
-    stroke: orange;
+/* center all the headers */
+  h1, h2, h3 {
+    text-align: center;
+  }
+/* flex container formatting */
+  .row {
+    display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+/* scatter plot formatting */
+  .scatter {
+    opacity: 75%;
+  }
+/* bar chart formatting */
+  .bar {
+    opacity: 75%;
+  }
+/* scatterplot highlight/selection formatting */
+  .selected {
     stroke-width: 3px;
-    opacity: 100%;
-}
-
+    stroke:rgb(0,0,0);
+    opacity: 1;
+  }
